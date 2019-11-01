@@ -4,7 +4,7 @@
   let count = 0;
 
   function handle(event) {
-    alert("yo");
+    alert(event.detail.text);
   }
 </script>
 
